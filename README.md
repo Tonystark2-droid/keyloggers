@@ -1,47 +1,122 @@
-# Advance Keylogger
+Advance Keylogger
+<p align="center"> <img src="https://cdn.discordapp.com/attachments/787260295860191254/1005556601823952946/logo.png" width=500/> </p>
+What is a Keylogger?
+Keystroke logging (or keylogging) is the act of recording the keys pressed on a keyboard, typically covertly, so the user remains unaware that their input is being monitored. The data collected by the keylogger is later retrieved by the person who installed it. Keyloggers are often used to steal sensitive information like passwords, credit card numbers, and personal messages.
 
-<p align="center">
-  <img src="https://cdn.discordapp.com/attachments/787260295860191254/1005556601823952946/logo.png" width=500/>
-</p>
+Even Microsoft has confirmed that Windows 10 includes telemetry features that include input data collection “to improve typing and writing functions,” although this is not the same as malicious keylogging.
 
-## What is Keylogger ?
+Types of Keyloggers
+1️⃣ Software-Based Keyloggers
+Capture keystrokes using software running on the target system.
 
-_The action of recording (logging) the keys struck on a keyboard, often discreetly, so that the person using the keyboard is unaware that their activities are being observed is known as keystroke logging, also known as keylogging or keyboard capture. The person who is running the logging program can then obtain the data. Keylogger is most often used to steal passwords and other confidential information._
+Additional features:
 
-_Even Microsoft has openly confirmed that the final version of Windows 10 features a built-in keylogger “to improve typing and writing functions.”_
+Clipboard logging: Captures copied text.
 
-## Type of Keyloggers
-*There are two types of keyloggers:*
+Screen capture: Takes screenshots at intervals or on trigger events.
 
-* ### Software-Based Keyloggers
-  * Features that collect user information without relying solely on keyboard key presses can be added to software keyloggers.
-  * Logging of the clipboard The software can capture anything that has been copied to the clipboard.
-  * Logging on the computer screen. To collect graphics-based information, screenshots are taken.
-  * Capturing text in a control programmatically.
-  * Search engine queries, instant messenger talks, FTP downloads, and other Internet-based activities are all being recorded (including the bandwidth used).
+Application hooks: Captures text from specific applications.
 
-* ### Hardware-Based Keyloggers
-  * Typical Hardware Keylogger is a hardware circuit that is installed anywhere between the computer keyboard and the computer for keystroke logging.
-  * Hardware keyloggers have an advantage over software keyloggers in that they can start logging as soon as the machine is switched on.
-  * Hardware-based keyloggers do not require the installation of any software because they operate at the hardware level of a computer system.
-  * A hardware keylogger’s memory size can range from a few kilobytes to several terabytes, with each keystroke recorded typically consuming a byte
+Network monitoring: Records browser history, search queries, email, chat logs, and file transfers.
 
-## How to detect and remove Keylogger
-_Are there telltale signs that your device is hosting a keylogger? The answer is, it depends. Like most malware, you can use a good antivirus/anti-malware scanner to find and remove keyloggers._
+Form grabbing: Extracts data from web forms before encryption.
 
-_Keyloggers of poorer quality (such as the malware variety) might reveal themselves in a number of ways. The software might subtly degrade smartphone screenshots to a noticeable degree. On all devices, there could be a slowdown in web browsing performance. Or there’s a distinct lag in your mouse movement or keystrokes, or what you are actually typing doesn’t show up onscreen. You might even get an error message when loading graphics or web pages. All in all, something just seems “off.”_
+2️⃣ Hardware-Based Keyloggers
+Physical devices attached between the keyboard and computer or embedded inside the keyboard.
 
-_The well-designed commercial grade of keylogger usually works flawlessly, so it does not affect system performance at all. If the keylogger is sending reports to a remote operator, it disguises itself as normal files or traffic. Some of the programs will even display a notice on the screen that the system is being monitored—such as in a corporate computing environment. Others can reinstall themselves if users somehow succeed in finding them and attempt to remove them._
+Advantages:
 
-_Of course, the best way to protect yourself and your equipment from falling victim to keyloggers is to scan your system regularly with a quality cybersecurity program. For instance. It uses heuristic analysis, signature recognition, and identification of typical keylogger behavior associated with keystroke and screenshot capturing to first find the malware, and then remove it._
+Operate at hardware level, independent of operating system.
 
-## Safe Side
-_Avoid keyloggers by avoiding the user mistakes that lead to their ability to infect phones and computers. It starts with keeping your operating system, your applications, and web browsers up to date with the latest security patches. Always be skeptical about any attachments you receive, especially unexpected ones even if they seem to come from someone you know. When in doubt, contact the sender to ask. Keep your passwords long and complex, and avoid using the same one for different services._
+Start logging as soon as the machine boots.
 
-_Real-time, always-on antivirus/anti-malware protection is the gold standard for preventing not only infection from a keylogger, but also from all other associated malware threats. For all platforms and devices, from Windows and Android, Mac and iPhones, to business environments._
+Harder to detect with antivirus software.
 
-## Disclaimer
-_This tool is for educational purposes only, the author do not endorse or promote any illegal activity and are not responsible for any damage done henceforth._
+Variants:
 
-## License
-_This program is free software; you can redistribute it and/or modify it under the terms of the MIT License (MIT). See [LICENSE](LICENSE) for more details._
+USB or PS/2 inline devices.
+
+Embedded keyboard modules.
+
+Wireless keyloggers using radio interception.
+
+How Keyloggers Work
+Software keyloggers install hooks or inject DLLs into processes to intercept input.
+
+Kernel-level keyloggers operate at the OS kernel, making them harder to detect.
+
+Browser extensions or plugins can act as keyloggers by intercepting web form input.
+
+Remote keyloggers send data to an attacker-controlled server using email, FTP, or HTTP/S.
+
+How to Detect and Remove Keyloggers
+Behavioral signs:
+
+Slow system or browser performance.
+
+Delayed keyboard or mouse response.
+
+Unexpected crashes or error messages.
+
+Unusual network activity.
+
+Detection tools:
+
+Antivirus/antimalware scanners.
+
+Anti-rootkit utilities.
+
+Task Manager / Activity Monitor.
+
+Autoruns and startup scanners.
+
+Firewall and network monitoring tools.
+
+Removal methods:
+
+Use reputable security software.
+
+Check running processes and installed programs.
+
+Perform offline or safe-mode scans.
+
+For hardware keyloggers, physically inspect keyboard connections.
+
+Prevention & Safety Tips
+✅ Keep operating systems, browsers, and applications updated.
+✅ Use strong, unique passwords and enable multi-factor authentication.
+✅ Be cautious with email attachments and downloads.
+✅ Avoid installing software from untrusted sources.
+✅ Use hardware encryption for sensitive data.
+✅ Regularly scan with updated antivirus/antimalware solutions.
+✅ Consider using a password manager with an on-screen keyboard for critical logins.
+
+Ethical Considerations
+⚠ Important Reminder:
+The use of keyloggers without consent is illegal and unethical. Keyloggers may only be used in environments where:
+
+Explicit user consent is provided.
+
+You own the device being monitored (e.g., for parental control).
+
+It’s part of authorized penetration testing or research with written approval.
+
+Unauthorized use can lead to criminal charges, lawsuits, and severe penalties.
+
+Examples of Legitimate Use Cases
+Parental control and monitoring.
+
+Corporate security and compliance (with employee consent).
+
+Personal device monitoring.
+
+Academic research under ethical guidelines.
+
+Penetration testing within scope of a legal agreement.
+
+Disclaimer
+This tool is provided for educational purposes only. The author does not endorse or promote illegal activity and is not responsible for any misuse or damages caused by the use of this software.
+
+License
+This program is free software; you can redistribute it and/or modify it under the terms of the MIT License (MIT). See LICENSE for more details.
+
